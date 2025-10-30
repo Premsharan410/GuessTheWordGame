@@ -43,3 +43,31 @@ Each category leads to a separate game screen (`index1.html`, `index2.html`, etc
 
 ## 📂 Project Structure
 
+GuessTheWordGame/
+│
+├── index0.html # Homepage
+├── index1.html # Programming category
+├── index2.html # Fruits category
+├── index3.html # Geography category
+├── index4.html # Space category
+│
+├── css/
+│ ├── style0.css
+│ ├── style1.css
+│ ├── style2.css
+│ ├── style3.css
+│ ├── style4.css
+│
+├── js/
+│ ├── script0.js
+│ ├── script1.js
+│ ├── script2.js
+│ ├── script3.js
+│ ├── script4.js
+│
+└── README.md
+
+
+## 👨‍💻 Author
+**Premsharan Patel**  
+Built with focus on simplicity, interactivity, and learning front-end development.
