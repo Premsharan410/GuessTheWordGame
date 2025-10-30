@@ -43,6 +43,7 @@ Each category leads to a separate game screen (`index1.html`, `index2.html`, etc
 
 ## 📂 Project Structure
 
+```
 GuessTheWordGame/
 │
 ├── index0.html # Homepage
@@ -66,7 +67,7 @@ GuessTheWordGame/
 │ ├── script4.js
 │
 └── README.md
-
+```
 
 ## 👨‍💻 Author
 **Premsharan Patel**  
