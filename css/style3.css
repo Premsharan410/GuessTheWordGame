@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+
+body {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("https://c7.alamy.com/comp/2PH19NC/states-of-india-3d-isometric-colorful-vector-map-with-capital-cities-and-flag-of-india-2PH19NC.jpg");
+  background-size: 95%;
+  background-position: 5vh -9vh;
+
+  font-family: 'DM Serif Text', serif;
+  letter-spacing: 1px;
+}
+
+
+.card {
+  width: 450px;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.3); 
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 2px 10px 5px #0000001a;
+  backdrop-filter: blur(3px);
+  border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+/* .card-content {
+  color: black;
+} */
+
+
+input {
+  width: 30px;
+  padding: 1%;
+  font-size: larger;
+  text-align: center;
+  margin-left: 2%;
+}
+
+#displayWord {
+  font-size: 35px;
+}
+
+.img {
+  padding-top: -10px;
+  margin-bottom: -50px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  align-items: center;
+  width: 100%;
+}
+
+#heading1 {
+  margin-top: 25px;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+#heading2 {
+  margin-top: -5px;
+  font-size: 18px;
+  word-spacing: 2px;
+}
+
+.mainBUTTON {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 700px;
+  margin-top: 20px;
+}
+
+.button1 {
+  background: linear-gradient(to right, #ffb369 0%, #ff4272 100%);
+  border: none;
+  height: 44px;
+  max-width: 500px;
+  font-size: 16px;
+  outline: none;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'DM Serif Text', serif;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  padding: 0 12px;
+  width: 200px;
+  /* transition: all 0.5s; */
+  margin: 5px;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  top: -2px;
+  letter-spacing: 2px;
+}
+
+.button1 span:after {
+  content: '\276E';
+  position: absolute;
+  opacity: 0;
+  top: 0px;
+  left: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-left: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+
+
+.button2 {
+  background: linear-gradient(to right, #ffb369 0%, #ff4272 100%);
+  border: none;
+  width: 200px;
+  height: 44px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'DM Serif Text', serif;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-block;
+  color: #ffffff;
+  transition: .3s;
+}
+
+.button2:hover {
+  animation: pulse 1s infinite;
+  transition: .3s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  70% {
+    transform: scale(.9);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.button2 span {
+  letter-spacing: 2px;
+}

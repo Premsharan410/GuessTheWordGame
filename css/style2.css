@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("https://wallpapercave.com/wp/wp5435952.png");
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.card {
+  width: 450px;
+  height: 250px;
+  /* background-color: rgba(255, 255, 255, 0.3);  */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+/* .card-content {
+  color: white;
+} */
+
+
+input {
+  width: 30px;
+  padding: 1%;
+  font-size: larger;
+  text-align: center;
+  margin-left: 2%;
+}
+
+#displayWord {
+  font-size: 35px;
+}
+
+.img {
+  padding-top: 10px;
+  margin-bottom: -50px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+#heading1 {
+  margin-top: 10px;
+  font-size: 28px;
+}
+
+
+#heading2 {
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.mainBUTTON {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 700px;
+  margin-top: 20px;
+}
+
+
+.button1 {
+  background-color: var(--primary);
+  height: 50px;
+  font-size: 16px;
+  /* outline: none; */
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 0 #000;
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+  /* transition: all 0.5s; */
+  margin: 5px;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  top: -9px;
+}
+
+.button1 span:after {
+  content: '\276E';
+  position: absolute;
+  opacity: 0;
+  top: 0px;
+  left: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-left: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+
+
+.button2 {
+  background-color: var(--primary);
+  font-family: 'Poppins', sans-serif;
+  width: 200px;
+  height: 50px;
+  max-width: 450px;
+  font-size: 16px;
+  /* outline: none; */
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 0 #000;
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.button2:hover {
+  transform: scale(1.1);
+}

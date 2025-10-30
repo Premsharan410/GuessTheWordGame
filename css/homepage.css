@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+
+body {
+  background-image: url("https://i.im.ge/2024/05/02/ZAVv10.bgimg.png");
+  background-size: cover;
+
+}
+
+div1:hover img {
+  transform: scale(1.04);
+  transition: 0.2s ease;
+}
+
+
+p {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Poetsen One', sans-serif;
+  color: #ffffff;
+}
+
+
+.circle-1 {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fff;
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  transform-origin: 50% 50%;
+  left: 5%;
+  top: 50%;
+  animation: fadeInFromTop .5s linear forwards, floating ease 4s infinite;
+}
+
+.circle-2 {
+  width: 70px;
+  height: 70px;
+  top: 20%;
+  left: 83%;
+  border: 2px solid #fff;
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  transform-origin: 50% 50%;
+  animation: fadeInFromTop .5s linear forwards, floating ease-in-out 4s infinite;
+}
+
+.circle-3 {
+  top: 80%;
+  right: 25%;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fff;
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  animation: fadeInFromTop .5s linear forwards, floating ease-in-out 4s infinite;
+}
+
+.circle-4 {
+  width: 70px;
+  height: 70px;
+  top: 10%;
+  left: 10%;
+  border: 2px solid #fff;
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  transform-origin: 50% 50%;
+  animation: fadeInFromTop .5s linear forwards, floating ease-in-out 4s infinite;
+}
+
+
+@keyframes floating {
+  0% {
+    transform: translate(0%, 0%) rotate(25deg);
+  }
+
+  25% {
+    transform: translate(5%, 15%) rotate(25deg);
+  }
+
+  50% {
+    transform: translate(10%, 5%) rotate(25deg);
+  }
+
+  75% {
+    transform: translate(0%, 15%) rotate(25deg);
+  }
+
+  100% {
+    transform: translate(0%, 0%) rotate(25deg);
+  }
+}
+
+.triangle {
+  position: absolute;
+}
+
+.triangle-1 {
+  right: 10%;
+  animation: fadeInFromTop .5s linear forwards, floating ease-in-out 6s infinite;
+}
+
+.triangle-1 img {
+  height: 50px;
+  width: 50px;
+  transform: rotate(30deg);
+}
+
+.triangle-2 {
+  top: 30%;
+  left: 20%;
+  animation: fadeInFromTop .5s linear forwards, floating ease-in-out 8s infinite;
+}
+
+.triangle-2 img {
+  width: 75px;
+  height: 75px;
+  transform: rotate(15deg);
+}
+
+.triangle-3 {
+  top: 80%;
+  left: 15%;
+  animation: fadeInFromTop .5s linear forwards, floating ease-in-out 10s infinite;
+}
+
+.triangle-3 img {
+  width: 45px;
+  height: 45px;
+  transform: rotate(40deg);
+}
+
+.triangle-4 {
+  top: 60%;
+  right: 15%;
+  animation: fadeInFromTop .5s linear forwards, floating ease-in-out 5s infinite;
+}
+
+.triangle-4 img {
+  width: 45px;
+  height: 45px;
+  transform: rotate(-40deg);
+}
+
+
+.but1 {
+
+  font-size: 18px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #ff00a2;
+  font-family: 'Poetsen One', sans-serif;
+
+
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 50px;
+
+}
+
+.flip {
+  padding: 15px 50px 15px 50px;
+  text-align: center;
+  border-radius: 7px;
+  font-family: 'Poetsen One', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  border: solid 1px #c3c3c3;
+  min-height: 3vh;
+  cursor: pointer;
+  width: 456px;
+
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.panel {
+  padding: 25px;
+  display: none;
+  width: 505px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.panel a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+.panel button:hover {
+  background-color: #ad41ff;
+  transition: background-color 0.3s ease;
+}
